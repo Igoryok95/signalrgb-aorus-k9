@@ -1,0 +1,12 @@
+{
+  "name": "signalrgb-aorus-k9",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "author": "Igoryok95",
+  "license": "MIT",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --experimental-vm-modules test/controller.test.mjs"
+  }
+}
