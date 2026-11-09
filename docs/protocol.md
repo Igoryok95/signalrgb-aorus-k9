@@ -1,5 +1,7 @@
 # AORUS K9 HID protocol notes
 
+The protocol investigation is based on Wireshark USB recordings shared by **@amazed_by_stuff** in [OpenRGB #413](https://gitlab.com/CalcProgrammer1/OpenRGB/-/work_items/413). Thank you for capturing and documenting the keyboard's lighting commands.
+
 ## Device selection
 
 | Field | Value |

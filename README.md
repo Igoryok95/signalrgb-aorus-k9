@@ -80,7 +80,9 @@ The build embeds `assets/aorus-k9.png` and creates standalone English and Russia
 
 ## References and image credits
 
-- [Original AORUS K9 USB captures — OpenRGB #413](https://gitlab.com/CalcProgrammer1/OpenRGB/-/issues/413)
+Thank you to **@amazed_by_stuff** for recording and sharing the Wireshark USB captures in [OpenRGB #413](https://gitlab.com/CalcProgrammer1/OpenRGB/-/work_items/413). Those recordings made the protocol investigation and this plugin possible.
+
+- [Original AORUS K9 USB captures — OpenRGB #413](https://gitlab.com/CalcProgrammer1/OpenRGB/-/work_items/413)
 - [Related AORUS laptop protocol — OpenRGB #3403](https://gitlab.com/CalcProgrammer1/OpenRGB/-/issues/3403)
 - [SignalRGB plugin documentation](https://docs.signalrgb.com/developer/plugins/)
 - [GIGABYTE AORUS K9 Optical](https://www.gigabyte.com/Keyboard/AORUS-K9-Optical)
