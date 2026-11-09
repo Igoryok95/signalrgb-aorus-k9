@@ -1,5 +1,7 @@
 # AORUS K9 Optical for SignalRGB
 
+Thank you to **@amazed_by_stuff** for recording and sharing the Wireshark USB captures in [OpenRGB #413](https://gitlab.com/CalcProgrammer1/OpenRGB/-/work_items/413). Those recordings made the protocol investigation and this plugin possible.
+
 A custom SignalRGB USB HID plugin for the **GIGABYTE AORUS K9 Optical** keyboard (`1044:7A35`). It adds uniform effect synchronization, static per-key colors, the keyboard's built-in animations, brightness control, and an embedded device image.
 
 Author and maintainer: [Igoryok95](https://github.com/Igoryok95).
@@ -16,7 +18,7 @@ Continuous per-key streaming is **not included in the released mode list**. Stat
 
 Tracked in [Known limitation #1](https://github.com/Igoryok95/signalrgb-aorus-k9/issues/1).
 
-![AORUS K9 Optical](assets/aorus-k9.png)
+![AORUS K9 Optical](assets/aorus-k9-readme.png)
 
 ## Installation
 
@@ -79,8 +81,6 @@ npm test
 The build embeds `assets/aorus-k9.png` and creates standalone English and Russian plugins. Tests check interface isolation, packet lengths and checksums, LED mapping, static-painting debounce, suppression of a changing canvas, native mode caching, uniform-color gamut, brightness, and suspend behavior. They use a simulated HID device and do not write to hardware.
 
 ## References and image credits
-
-Thank you to **@amazed_by_stuff** for recording and sharing the Wireshark USB captures in [OpenRGB #413](https://gitlab.com/CalcProgrammer1/OpenRGB/-/work_items/413). Those recordings made the protocol investigation and this plugin possible.
 
 - [Original AORUS K9 USB captures — OpenRGB #413](https://gitlab.com/CalcProgrammer1/OpenRGB/-/work_items/413)
 - [Related AORUS laptop protocol — OpenRGB #3403](https://gitlab.com/CalcProgrammer1/OpenRGB/-/issues/3403)
