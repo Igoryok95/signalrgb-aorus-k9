@@ -59,6 +59,8 @@ A continuously changing canvas is deliberately ignored in this mode. This preser
 
 The plugin was developed from USB captures and tested on a connected AORUS K9 Optical with SignalRGB 2.5.86 on Windows. Uniform color, Esc/WASD/arrows, complete row mapping, canvas identification, and the embedded image were checked on the physical device. Automated tests cover both English and Russian builds.
 
+In a follow-up check, the maintainer reported that the final modes worked as expected and the keyboard responded normally. This is user-observed validation, not a measured input-latency or system frame-time test.
+
 An experimental HID stream completed **800 per-key frames in 20 seconds at 40 updates/s**, followed by a matching 512-byte readback. Physical testing still showed flicker, including with an unchanged frame. That transport result is **not a supported animation rate** and is not an optical measurement of LED refresh frequency.
 
 The final plugin uses the captured firmware commands and a settled, changed-frame-only static writer. See [test findings](docs/test-findings.md) for the distinction between successful USB transfer and usable lighting.
