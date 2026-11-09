@@ -14,6 +14,8 @@ Continuous per-key streaming is **not included in the released mode list**. Stat
 
 **UNIFORM COLOR MODE IS RECOMMENDED. Per-key mode only conditionally works for static, non-animated lighting and is provided on a best-effort basis.**
 
+Tracked in [Known limitation #1](https://github.com/Igoryok95/signalrgb-aorus-k9/issues/1).
+
 ![AORUS K9 Optical](assets/aorus-k9.png)
 
 ## Installation
